@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 
+// Layout for book item
 function BookItem(props) {
 
     return (

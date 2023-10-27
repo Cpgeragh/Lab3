@@ -1,5 +1,6 @@
 import Books from "./books";
 
+// Data to be read into new book
 function Read() {
     const data = [
         {
@@ -37,6 +38,7 @@ function Read() {
         }
     ];
 
+    // Return heading to book page
     return (
         <div>
             <h2>Hello from Read Component!</h2>
